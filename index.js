@@ -52,3 +52,21 @@ async function spellPage(target){
         } catch (error) {
           console.error('Error fetching spell details:', error)
       }}
+
+function filterSearch() {
+    const searchInput = document.getElementById('search-input');
+    const spellButtons = document.querySelectorAll('.spell.button');
+      
+    searchInput.addEventListener('input', () => {
+        const searchTerm = searchInput.value.toLowerCase();
+      
+        spellButtons.forEach(button => {
+        const buttonText = button.innerText.toLowerCase();
+        if (searchTerm === "" || buttonText.includes(searchTerm)) {
+            button.style.display = 'block';
+        } else {
+            button.style.display = 'none';
+        }
+        })
+    })
+}
