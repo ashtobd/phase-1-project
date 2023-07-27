@@ -26,7 +26,7 @@ function makeButtons(spells){
     })}
 
 async function spellPage(target){
-    const spellDetailsContainer = document.getElementById("spell");
+    const spellDetailsContainer = document.getElementById("spell-details");
     spellDetailsContainer.innerHTML = '';
       
     try {
