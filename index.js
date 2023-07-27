@@ -21,7 +21,7 @@ function makeButtons(spells){
         button.innerText = element.name
         button.className = "spell button"
         button.setAttribute("data-spell-name", element.index)
-        button.addEventListener("click", (e) => spellPage(e.target.getAttribute("data-spell-name")))
+        button.addEventListener("click", (e) => spellPage(e.target.getAttribute("data-spell-name")))        
             buttonsContainer.appendChild(button)
     })}
 
@@ -68,5 +68,8 @@ function filterSearch() {
             button.style.display = 'none';
         }
         })
+    })
+    searchInput.addEventListener('focus', () => {
+        searchInput.value = ''
     })
 }
