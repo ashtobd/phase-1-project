@@ -4,10 +4,15 @@ body {
     margin: 0;
     padding: 0;
   }
-  
+
 .header {
     text-align: center;
     background-color: #6c63ff;
     color: #fff;
     padding: 20px;
+  }
+
+#search-wrapper {
+    text-align: center;
+    margin-top: 10px;
   }
