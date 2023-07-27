@@ -22,4 +22,5 @@ For more information on the API and its usage, refer to the official documentati
 
 ## Contact
 
-For any questions or feedback, you can reach out to me through GitHub or via email at ashtobd@gmail.com.
+For any questions or feedback, you can reach out to me through GitHub or via email at ashtobd@gmail.com. Also check out my blog post about the project at
+https://newtocoding.hashnode.dev/my-first-javascript-project
